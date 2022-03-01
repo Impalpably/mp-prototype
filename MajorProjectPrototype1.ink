@@ -9,14 +9,22 @@ Do you understand?
 == Chapter2 ==
  
  How do you rate your climate change beliefs? 
- * Climate Change Activist -> Chapter3
- * Climate Change Advisor -> Chapter3
- * Climate Change Educator -> Chapter3
- * Climate Change Nihilist -> Chapter3
- * Climate Change Pessimist -> Chapter3
- * Climate Change Fatigue -> Chapter3
- * Climate Change Missinformer -> Chapter3
- * Climate Change Denier -> Chapter3
+ * Protest, vote and act to reduce the worlds carbon emmission.  -> Chapter3
+ //Activist
+ * Dedicate your skills and study the effects of climate change, advising the world on solutions and ideas to reduce damage. -> Chapter3
+ //Advisor
+ * Communicate climate change science and spread awareness. -> Chapter3
+ //Educator
+ * Understand the severity of climate change but choose to not act. -> Chapter3
+ //Nihilist
+ * Why bother if no one else will? -> Chapter3
+ //Pessimist
+ * Exhuasted by the number of solutions suggested and choices. -> Chapter3
+ //Fatigue
+ * Feel climate change will be easily managable -> Chapter3
+ //Missinformer
+ * I don't see any effects from Climate Change -> Chapter3
+ //Denier
  
  == Chapter3 ==
  
@@ -26,19 +34,18 @@ Do you understand?
  
  == Branch1 ==
  
- (The Track) 
+ (The Apocalypse Thread) While you run your city, and cut emmissions, the world sits in the balance, if you reduce your emmissions you move down the Apocalypse Thread, if you increase your emmissions you move up the Apocalypse Thread. 
+ 
+
+ == Branch2 ==
  
  You begin at '4' on (The Track), you are expereincing increasing global tensions, while the temperatures and weather patterns are causing minor disruptions the world is stable. 
  
- == Branch2 ==
- 
- Explain the Track System Here
- 
  == Branch3 ==
  
- Explain the Track System Here
+ You begin at '4' on (The Track), you are expereincing increasing global tensions, while the temperatures and weather patterns are causing minor disruptions the world is stable. 
  
-
+== ApocalypseThread ==
  
  
 
