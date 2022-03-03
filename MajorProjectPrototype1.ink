@@ -44,38 +44,59 @@ What kind of leader do you think you are?
 
 == ClimateChangeTrack ==
  
- The Apocalypse Thread is set at 4. You are currently experiencing Mild Chance of Severe Weather Events, Low Chance of Disasters.
+ 1 to 4, A small chance that disasters will occur. 
+ 5 to 9, A mild chance that disasters will occur.
+ 9 to 10, A strong chance that disasters will occur. 
+ 11 to 12, Extinction level disasters might occur. 
  
-To reduce your CO2 emmissions you can destroy 30% of your cattle and build Algae Farms to feed the population. This may lower morale and some people might find this cruel but future of the world is at stake. 
-Do you...
+ You are currently set at 5. 
  
- *Algae Farm Card -> Algae
- *Cattle -> Cattle
+ *Time to make some decisions -> Decisions
  
- 
- == Algae ==
-  The Apocalypse Thread is set at 3. You are currently experiencing Mild Chance of Severe Weather Events, Low Chance of Disasters.
+ == Decisions ==
 
- People are not starving and your CO2 emmissions are reducing. 
- 
- An Event has occured.
- 
+Destroy 30% of cattle to drastically reduce your CO2 emmissions, you will be less likely to be hit by disasters, air pollution will improve but there's a chance people's health will suffer. 
 
+You will find another way, killing animals is cruel. 
+
+ * Destroy Cattle -> Event1
+ * Find another way -> Cattle
+ 
+ 
+ == Event1 ==
+ 
+ An event has occured!
+ 
+ Disease Spreads.
+ 
+ The City will experience a mental health crisis. 
+ 
+ * See the Climate Change Track -> ClimateChangeTrack1
+ * Keep going -> Cattle
+ 
+== ClimateChangeTrack1 ==
+ 
+ 1 to 4, A small chance that disasters will occur. 
+ 5 to 9, A mild chance that disasters will occur.
+ 9 to 10, A strong chance that disasters will occur. 
+ 11 to 12, Extinction level disasters might occur. 
+ 
+ You are currently set at 8. 
+ 
+ *Time to make some decisions -> DestroyCattle2
  
  == Cattle ==
-The Apocolypse Thread is set at 5. High Chance of Severe Weather Events, Mild Chance of Disasters
-
-You still need to reduce your CO2 emmissions, 
-
- An Event has occured.
-
-
-== ApocalypseThread ==
  
- 1 Weather patterns are stable, you are less likely to receive catastrophic disasters like forest fires. 
- 2
- 3
- 4
+ You have decided to keep the cattle. Your city needs a decision do you:
+ 
+ * Discontinue the sale of meat, and build Algae Farms instead, which may be unpopular. -> END
+ * Continue to allow the sale of meat and look for other ways to reduce emmissions. -> END
+
+
+== DestroyCattle2 ==
+
+
+
 
 - They lived happily ever after.
 
