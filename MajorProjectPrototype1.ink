@@ -28,26 +28,44 @@ Do you understand?
  
  == Chapter3 ==
  
- * Map Point - 1 -> Branch1
- * Map Point - 2 -> Branch2
- * Map Point - 3 -> Branch3
+ * Map Point - 1 -> MapPoint1
  
- == Branch1 ==
+ == MapPoint1 ==
  
- (The Apocalypse Thread) While you run your city, and cut emmissions, the world sits in the balance, if you reduce your emmissions you move down the Apocalypse Thread, if you increase your emmissions you move up the Apocalypse Thread. 
+ (The Apocalypse Thread) While you run your city, and cut emmissions, the world sits in the balance, if you reduce your emmissions you move down the Apocalypse Thread, if you increase your emmissions you move up the Apocalypse Thread. The Apocolypse Thread is measured by population Health, Weather, Ecology, Water and Temperature. The higher your emmissions the more likely you will suffer intense, disaterous, catastrophic or potentially extinction level events. 
+ 
+ The Apocalypse Thread is set at 4. You are currently experiencing Mild Chance of Severe Weather Events, Low Chance of Disasters.
+ 
+To reduce your CO2 emmissions you can destroy 30% of your cattle and build Algae Farms to feed the population. This may lower morale and some people might find this cruel but future of the world is at stake. 
+Do you...
+ 
+ *Algae Farm Card -> Algae
+ *Cattle -> Cattle
+ 
+ 
+ == Algae ==
+  The Apocalypse Thread is set at 3. You are currently experiencing Mild Chance of Severe Weather Events, Low Chance of Disasters.
+
+ People are not starving and your CO2 emmissions are reducing. 
+ 
+ An Event has occured.
  
 
- == Branch2 ==
  
- You begin at '4' on (The Track), you are expereincing increasing global tensions, while the temperatures and weather patterns are causing minor disruptions the world is stable. 
- 
- == Branch3 ==
- 
- You begin at '4' on (The Track), you are expereincing increasing global tensions, while the temperatures and weather patterns are causing minor disruptions the world is stable. 
- 
+ == Cattle ==
+The Apocolypse Thread is set at 5. High Chance of Severe Weather Events, Mild Chance of Disasters
+
+You still need to reduce your CO2 emmissions, 
+
+ An Event has occured.
+
+
 == ApocalypseThread ==
  
- 
+ 1 Weather patterns are stable, you are less likely to receive catastrophic disasters like forest fires. 
+ 2
+ 3
+ 4
 
 - They lived happily ever after.
 
