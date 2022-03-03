@@ -36,9 +36,13 @@ What kind of leader do you think you are?
  
  The Climate Change Track
  
+ The Climate Change Track measures the health, Weather, Ecology, Water and Temperature of the city you are in charge of protecting.  The higher your emmissions the more likely you will suffer intense, disaterous, catastrophic or potentially extinction level events.
  
+ Collect cards that will balance you CO2 emmissions and avoid moving up The Climate Change Track. 
  
- (The Apocalypse Thread) While you run your city, and cut emmissions, the world sits in the balance, if you reduce your emmissions you move down the Apocalypse Thread, if you increase your emmissions you move up the Apocalypse Thread. The Apocolypse Thread is measured by population Health, Weather, Ecology, Water and Temperature. The higher your emmissions the more likely you will suffer intense, disaterous, catastrophic or potentially extinction level events. 
+ *See the Climate Change Track -> ClimateChangeTrack
+
+== ClimateChangeTrack ==
  
  The Apocalypse Thread is set at 4. You are currently experiencing Mild Chance of Severe Weather Events, Low Chance of Disasters.
  
