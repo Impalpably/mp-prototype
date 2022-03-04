@@ -55,9 +55,10 @@ If you haven't selected No, please feel free to explore that option!
 
 Please complete the survey here: 
 
-<a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link</a> 
+<a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link to Survey</a> 
 
- -> END
+Restart -> Main
+End -> END
  
  == No ==
  
