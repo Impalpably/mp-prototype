@@ -260,3 +260,7 @@ body.dark {
 .dark #controls {
     background: black;
 }
+
+.bold {
+    font-weight: bold;
+}

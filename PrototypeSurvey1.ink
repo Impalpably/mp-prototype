@@ -13,7 +13,7 @@ You belong to an era named 'The Great Derrangement', after many, many, many year
 
 You are one of four leaders, charged with cutting sky-rocketing CO2 emmissions and re-shaping the world as you know it. 
 
-Every decision you make matters. 
+Every decision you make matters. # CLASS: bold
 
 Do you accept? 
 
@@ -22,7 +22,7 @@ Do you accept?
  
 == Chapter2 ==
 
-What kind of leader do you think you are?
+What kind of leader do you think you are? # CLASS: bold
 
 
  During 'The Great Derrangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. But there is no one to protest against now, you are in charge, how will you save the world? 
@@ -42,7 +42,7 @@ What kind of leader do you think you are?
  A Climate Change Deinier: 15 Influence Points, 0 Intelligent Points 0 Likability Points   # IMAGE: ../Denier.jpg
 
   
-  Pick the leader you think you are? 
+  Pick the leader you think you are? # CLASS: bold
 
  * An Activist Leader  -> Survey 
  * A Nihilistic Leader. -> Survey 
@@ -51,14 +51,14 @@ What kind of leader do you think you are?
 
  == Survey == 
  
-If you haven't selected No, please feel free to explore that option!
-
-Please complete the survey here: 
+Please complete the survey here: # CLASS: bold
 
 <a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link to Survey</a> 
 
-Restart -> Main
-End -> END
+If you haven't explore all the options you can restart below. 
+
+* Restart -> Main
+* End -> END
  
  == No ==
  
