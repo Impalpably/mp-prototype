@@ -51,10 +51,12 @@ What kind of leader do you think you are?
 
  == Survey == 
  
+If you haven't selected No, please feel free to explore that option!
+
 Please complete the survey here: 
 
 
-
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkPs8oOA4spcXE-RyNpe2Dv6rj2ZoIyF6J8uAmAVIe5LXqpQ/viewform?embedded=true" width="640" height="1038" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
  
  -> END
  
@@ -63,9 +65,36 @@ Please complete the survey here:
  Faced with the opportunity to make a change, you hid! Elect someone else! You went home, put on your TV and watched as storms ravaged the world around you.
  
  The leader that was appointed in your stead dies of natural causes one year later 
- The pool of potential leaders is slim. 
+ The pool of potential leaders is slim. You are asked again, only now things have worsened and The Climate Change Track is set at 6. 
  
+ Do you accept? 
  
+ * Yes -> Chapter2
+ * No -> No2
+ 
+ See the Climate Change Track -> ClimateChangeTrack
+ 
+ == ClimateChangeTrack ==
+ 
+ 1 to 4, A small chance that disasters will occur. 
+ 5 to 9, A mild chance that disasters will occur.
+ 9 to 10, A strong chance that disasters will occur. 
+ 11 to 12, Extinction level disasters might occur. 
+ 
+ Continue the story -> No
+ 
+ == No2 ==
+ 
+ You spend four years hoping someone else can sort this mess of a world out. Temperatures have risen, air pollution is high, hurricanes and earthquakes are now common and inflation has driven the cost of food high.
+ 
+The climate Change Track now sits at 9, there is a strong chance catastrophic disasters will occur. 
+ 
+Your leader stats are now set to 0. 
+
+Do you accept? 
+
+* Yea, I guess -> Chapter2
+* No -> END
 
  The End.
  
