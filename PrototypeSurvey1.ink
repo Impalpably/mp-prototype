@@ -55,9 +55,8 @@ If you haven't selected No, please feel free to explore that option!
 
 Please complete the survey here: 
 
+<a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link</a> 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkPs8oOA4spcXE-RyNpe2Dv6rj2ZoIyF6J8uAmAVIe5LXqpQ/viewform?embedded=true" width="640" height="1038" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
- 
  -> END
  
  == No ==
