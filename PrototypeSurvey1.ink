@@ -5,20 +5,20 @@ EXTERNAL get_name()
 === function get_name() ===
 ~ return "Anonymous"
 == Main ==
-Hello {get_name()}!
+VAR PlayerName = ""
+~ PlayerName = get_name()
+Hello {PlayerName}!
 
 This a project for Falmouth University, I am an Indie Game Development student there and you can contact me at SM252659@falmouth.ac.uk. By playing this game and completing my survey you will be supporting my research. I am using a tool to record your decisions and play experience. If you are not comfortable with this, please close your tab now! Otherwise, thank you very much for participating! 
 
 Are you happy to continue? 
 
-* Yes -> Chapter1
+* Yes -> Chapter1 # CLEAR
 * No -> END
 
-== Chapter1
+== Chapter1 ==
 
-Hello {get_name()}! # CLASS: bold
-
-# IMAGE: ../Storm.jpg
+Hello {PlayerName} # IMAGE: ../Storm.jpg
 
 You belong to an era named 'The Great Derrangement' (Ghosh 2016), after many, many, many years of denial the world is finally working together to build a sustainable future. 
 
