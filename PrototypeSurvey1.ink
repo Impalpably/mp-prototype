@@ -18,7 +18,7 @@ Are you happy to continue?
 
 == Chapter1 ==
 
-Hello {PlayerName} # IMAGE: ../Storm.jpg
+{PlayerName}! # IMAGE: ../Storm.jpg
 
 You belong to an era named 'The Great Derrangement' (Ghosh 2016), after many, many, many years of denial the world is finally working together to build a sustainable future. 
 
@@ -28,12 +28,12 @@ Every decision you make matters. # CLASS: bold
 
 Do you accept? 
 
- * Yes -> Chapter2
+ * Yes -> Chapter2 # CLEAR
  * No -> No
  
 == Chapter2 ==
 
-What kind of leader do you think you are? # CLASS: bold
+{PlayerName} what kind of leader do you think you are? # CLASS: bold
 
 Read each profile carefully, and choose who you want to be. # CLASS: bold
 
@@ -66,7 +66,9 @@ Denier # CLASS: bold
  * A Climate Change Denier -> Survey 
 
  == Survey == 
- 
+
+Thank you for playing {PlayerName} 
+
 Please complete the survey here: # CLASS: bold
 
 <a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link to Survey</a> 
