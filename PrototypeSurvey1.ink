@@ -28,7 +28,7 @@ Every decision you make matters. # CLASS: bold
 
 Do you accept? 
 
- * Yes -> Chapter2 # CLEAR
+ * Yes -> Chapter2 
  * No -> No
  
 == Chapter2 ==
