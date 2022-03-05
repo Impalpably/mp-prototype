@@ -9,7 +9,7 @@ Hello {get_name()}!
 
 # IMAGE: ../Storm.jpg
 
-You belong to an era named 'The Great Derrangement', after many, many, many years of denial, inequality and conflict the world is finally working together to build a sustainable future. 
+You belong to an era named 'The Great Derrangement' (Ghosh 2016), after many, many, many years of denial, inequality and conflict the world is finally working together to build a sustainable future. 
 
 You are one of four leaders, charged with cutting sky-rocketing CO2 emmissions and re-shaping the world as you know it. 
 
@@ -29,22 +29,22 @@ Read each profile carefully, and choose who you want to be. # CLASS: bold
 Activist # CLASS: bold
  During 'The Great Derrangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. But there is no one to protest against now, you are in charge, how will you save the world? 
  
-   An Activist Leader: 5 Influence Points, 5 Intelligent Points, 5 Likability Points  # IMAGE: ../Activist.jpg
+   An Activist Leader: 5 Influence Points, 5 Intelligent Points, 5 Likability Points 5 Empathy Points  # IMAGE: ../Activist.jpg
 
 Nihilist # CLASS: bold
  During 'The Great Derrangement' you rejected your individual responsibility, your 'Geo-Political Footprint' and while you recycled and understood that Climate Change is real and happening you simply never really acted to stop it. Now you must act, who will you be? 
  
- A Nihilistic Leader: 5 Influence Points, 5 Research Points, 5 Likability Points  # IMAGE: ../Nihilist.jpg
+ A Nihilistic Leader: 5 Influence Points, 10 Intelligent Points, 0 Likability Points  5 Empathy Points # IMAGE: ../Nihilist.jpg
 
 Overwhelmed # CLASS: bold
  During 'The Great Derrangement' you watched the increasing storms, you watched the increasing floods, you watched on your television as the world started to fall. Overwhelmed by the severity of the problem and the lack of resources, the lack of knowing what to do, you did nothing. You are burdened with anxiety and apocalypse fatigue, how will you act in your new role now it's entirely in your power?
  
-  An Overwhelmed Leader: 0 Influence Points, 10 Intelligent Points, 5 Likability Points   # IMAGE: ../Fatigue.jpg
+  An Overwhelmed Leader: 0 Influence Points, 5 Intelligent Points, 5 Likability Points 10 Empathy Points  # IMAGE: ../Fatigue.jpg
 
 Denier # CLASS: bold
  During 'The Great Derrangement' you tweeted. You tweeted any information, no matter where it came from, confident that the climate change believers were wrong, that effects of climate change were going to be minimal. Even if Climate Change is real, there is nothing we can do about it because it is natural. Now you see the natural devastation of climate change, if you don't do anything you'll all die. Who are you now, climate change denier?
  
- A Climate Change Deinier: 15 Influence Points, 0 Intelligent Points 0 Likability Points   # IMAGE: ../Denier.jpg
+ A Climate Change Deinier: 20 Influence Points, 0 Intelligent Points 0 Likability Points 0 Empathy Points  # IMAGE: ../Denier.jpg
 
   
   Pick the leader you think you are? # CLASS: bold
@@ -102,6 +102,10 @@ Do you accept?
 * No -> END
 
  The End.
+ 
+ 
+GHOSH, Amitav. 2016. The Great Derangement: Climate Change and the Unthinkable. Chicago: The University of Chicago Press.
+
  
     -> END
  
