@@ -38,7 +38,7 @@ Do you accept?
 Read each profile carefully, and choose who you want to be. # CLASS: bold
 
 Eco-Activist # CLASS: bold
- During 'The Great Derrangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. Your views divided people, you were called an eco-terrorist but you knew you were fighting the right fight for our ecosystem. Now you are in charge, how will you save the world? 
+ During 'The Great Derrangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. Your views divided people, you were called an eco-terrorist but you knew you were fighting for a brighter future for the planet. Now you are in charge, how will you save the world? 
  
    An Activist Leader: 5 Influence Points, 5 Intelligent Points, 5 Likability Points 5 Empathy Points  # IMAGE: ../Activist.jpg
 
