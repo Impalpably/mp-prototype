@@ -26,8 +26,8 @@ What kind of leader do you think you are? # CLASS: bold
 
 Read each profile carefully, and choose who you want to be. # CLASS: bold
 
-Activist # CLASS: bold
- During 'The Great Derrangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. But there is no one to protest against now, you are in charge, how will you save the world? 
+Eco-Activist # CLASS: bold
+ During 'The Great Derrangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. Your views divided people, you were called an eco-terrorist but you knew you were fighting the right fight for our ecosystem. Now you are in charge, how will you save the world? 
  
    An Activist Leader: 5 Influence Points, 5 Intelligent Points, 5 Likability Points 5 Empathy Points  # IMAGE: ../Activist.jpg
 
@@ -42,7 +42,7 @@ Overwhelmed # CLASS: bold
   An Overwhelmed Leader: 0 Influence Points, 5 Intelligent Points, 5 Likability Points 10 Empathy Points  # IMAGE: ../Fatigue.jpg
 
 Denier # CLASS: bold
- During 'The Great Derrangement' you tweeted. You tweeted any information, no matter where it came from, confident that the climate change believers were wrong, that effects of climate change were going to be minimal. Even if Climate Change is real, there is nothing we can do about it because it is natural. Now you see the natural devastation of climate change, if you don't do anything you'll all die. Who are you now, climate change denier?
+ During 'The Great Derrangement' you tweeted. You tweeted any information, no matter where it came from. Even if Climate Change is real, there is nothing we can do about it because it is natural you said. Now you see the natural devastation of climate change, if you don't do anything you'll all die. So what will you do now, let devastation run it's course? 
  
  A Climate Change Deinier: 20 Influence Points, 0 Intelligent Points 0 Likability Points 0 Empathy Points  # IMAGE: ../Denier.jpg
 
