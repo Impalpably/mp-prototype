@@ -7,9 +7,20 @@ EXTERNAL get_name()
 == Main ==
 Hello {get_name()}!
 
+This a project for Falmouth University, I am an Indie Game Development student there and you can contact me at SM252659@falmouth.ac.uk. By playing this game and completing my survey you will be supporting my research. I am using a tool to record your decisions and play experience. If you are not comfortable with this, please close your tab now! Otherwise, thank you very much for participating! 
+
+Are you happy to continue? 
+
+* Yes -> Chapter1
+* No -> END
+
+== Chapter1
+
+Hello {get_name()}! # CLASS: bold
+
 # IMAGE: ../Storm.jpg
 
-You belong to an era named 'The Great Derrangement' (Ghosh 2016), after many, many, many years of denial, inequality and conflict the world is finally working together to build a sustainable future. 
+You belong to an era named 'The Great Derrangement' (Ghosh 2016), after many, many, many years of denial the world is finally working together to build a sustainable future. 
 
 You are one of four leaders, charged with cutting sky-rocketing CO2 emmissions and re-shaping the world as you know it. 
 
