@@ -9,7 +9,7 @@ VAR PlayerName = ""
 ~ PlayerName = get_name()
 Hello {PlayerName}!
 
-This a project for Falmouth University, I am an Indie Game Development student there and you can contact me at SM252659@falmouth.ac.uk. By playing this game and completing my survey you will be supporting my research.
+This a project for Falmouth University, I am an Indie Game Development student there and you can contact me at SM252659@falmouth.ac.uk. I am researching how game design can play it's part in eco-action and climate change action. By playing this game and completing my survey you will be supporting my research.
 
 I am completing a series of prototypes, to explore narrative choices for games about climate change. 
 
@@ -17,7 +17,7 @@ My first prototype, explores character profiles and choices, so the survey may f
 
 I will be releasing more prototypes and surveys, where the narrative will continue and you'll need to make more choices. Which leader you choose will make a difference to the story. Every decision you make will have consequences. 
 
-Your feedback will be used to enhance and iterate on the story of my final game, which will be a card game you can play on your computer. 
+Your feedback will be used to enhance and iterate on the story of my final game, which will be a narrative-driven card game. While collecting cards and building up a city, events will appear, these events will explore ideas around climate change, the challenges of finding solutions for action to protect our planet. Your feedback will make a huge difference! 
 
 I may use software to record your choices and time-taken to decide. Are you happy to continue? 
 
@@ -60,8 +60,10 @@ Denier # CLASS: bold
  
  A Climate Change Deinier: 20 Influence Points, 0 Intelligent Points 0 Likability Points 0 Empathy Points  # IMAGE: ../Denier.jpg
  
- The stati
+Not a leader # CLASS: bold
+Someone else should take this great responsibility. 
 
+Not a Leader:  0 Influence Points, 0 Intelligent Points 0 Likability Points 0 Empathy Points # IMAGE: ../No.jpg
   
   Pick the leader you think you are? # CLASS: bold
 
@@ -71,19 +73,7 @@ Denier # CLASS: bold
  * A Climate Change Denier -> Survey 
  * I am not a leader, I cannot accept! -> No
 
- == Survey == 
 
-Thank you for playing {PlayerName} 
-
-Please complete the survey here: # CLASS: bold
-
-<a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link to Survey</a> 
-
-If you haven't explored all the options you can restart below. 
-
-* Restart -> Main
-* End -> END
- 
  == No ==
  
  Faced with the opportunity to make a change, you hid! Elect someone else! You went home, put on your TV and watched as storms ravaged the world around you.
@@ -118,13 +108,34 @@ Your leader stats are now set to 0.
 Do you accept? 
 
 * Yea, I guess -> Chapter1
-* No -> END
+* No -> Survey
 
- The End.
- 
- 
-GHOSH, Amitav. 2016. The Great Derangement: Climate Change and the Unthinkable. Chicago: The University of Chicago Press.
+  == Survey == 
 
+Thank you for playing {PlayerName} 
+
+Please complete the survey here: # CLASS: bold
+
+<a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link to Survey</a> 
+
+If you haven't explored all the options, and you want to (you don't have to) you can restart below. 
+
+'The Great Derrangement' is a reference to Amitav Ghosh book by the same title (The Great Derangement: Climate Change and the Unthinkable). 
+
+The full quote: 
+
+“Quite possibly, then, this era, which so congratulates itself on its self awareness, will come to be known as the time of The Great Derrangement” (Ghosh 2017:11).
+
+ References
+
+ GHOSH, Amitav. 2016. The Great Derangement: Climate Change and the Unthinkable. Chicago: The University of Chicago Press.
+
+* Restart -> Main
+* End -> END
+ 
  
     -> END
+    
+    
+
  
