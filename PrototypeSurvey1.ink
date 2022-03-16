@@ -9,9 +9,17 @@ VAR PlayerName = ""
 ~ PlayerName = get_name()
 Hello {PlayerName}!
 
-This a project for Falmouth University, I am an Indie Game Development student there and you can contact me at SM252659@falmouth.ac.uk. By playing this game and completing my survey you will be supporting my research. I am using a tool to record your decisions and play experience. If you are not comfortable with this, please close your tab now! Otherwise, thank you very much for participating! 
+This a project for Falmouth University, I am an Indie Game Development student there and you can contact me at SM252659@falmouth.ac.uk. By playing this game and completing my survey you will be supporting my research.
 
-Are you happy to continue? 
+I am completing a series of prototypes, to explore narrative choices for games about climate change. 
+
+My first prototype, explores character profiles and choices, so the survey may feel very short. This is okay! Getting the character choices right, is the first step and there are no right or wrong answers to the survey or why you may pick one leader and not another. 
+
+I will be releasing more prototypes and surveys, where the narrative will continue and you'll need to make more choices. Which leader you choose will make a difference to the story. Every decision you make will have consequences. 
+
+Your feedback will be used to enhance and iterate on the story of my final game, which will be a card game you can play on your computer. 
+
+I may use software to record your choices and time-taken to decide. Are you happy to continue? 
 
 * Yes -> Chapter1 # CLEAR
 * No -> END
@@ -20,42 +28,39 @@ Are you happy to continue?
 
 {PlayerName}! # IMAGE: ../Storm.jpg
 
-You belong to an era named 'The Great Derrangement' (Ghosh 2016), after many, many, many years of denial the world is finally working together to build a sustainable future. 
+You belong to an era named 'The Great Derangement' (Ghosh 2016), after many, many, many years of denial the world is finally working together to build a sustainable future. 
 
-You are one of four leaders, charged with cutting sky-rocketing CO2 emmissions and re-shaping the world as you know it. 
+You are one of four leaders, charged with cutting sky-rocketing CO2 emissions and re-shaping the world as you know it. 
+
+Every leader is different, and will be able to make different policy changes, decisions and build solutions based on their choices and their leader stats in influence, intelligence, likability and empathy. Your leader stats will also change with the decisions you makes, you may start with 5 influence points but these can go up and down based on the consequences of your actions.
 
 Every decision you make matters. # CLASS: bold
-
-Do you accept? 
-
- * Yes -> Chapter2 
- * No -> No
- 
-== Chapter2 ==
 
 {PlayerName} what kind of leader do you think you are? # CLASS: bold
 
 Read each profile carefully, and choose who you want to be. # CLASS: bold
 
 Eco-Activist # CLASS: bold
- During 'The Great Derrangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. Your views divided people, you were called an eco-terrorist but you knew you were fighting for a brighter future for the planet. Now you are in charge, how will you save the world? 
+ During 'The Great Derangement' you demonstrated against fracking, fossil fuels and rallied to vote for change. Your views divided people, you were called an eco-terrorist but you knew you were fighting for a brighter future for the planet. Now you are in charge, how will you save the world? 
  
    An Activist Leader: 5 Influence Points, 5 Intelligent Points, 5 Likability Points 5 Empathy Points  # IMAGE: ../Activist.jpg
 
 Nihilist # CLASS: bold
- During 'The Great Derrangement' you rejected your individual responsibility, your 'Geo-Political Footprint' and while you recycled and understood that Climate Change is real and happening you simply never really acted to stop it. Now you must act, who will you be? 
+ During 'The Great Derangement' you rejected your individual responsibility, your 'Geo-Political Footprint' (your opportunities to spread awareness about climate change) and while you recycled and understood that Climate Change is real and happening you simply never really acted to stop it. Now you must act, who will you be? 
  
  A Nihilistic Leader: 5 Influence Points, 10 Intelligent Points, 0 Likability Points  5 Empathy Points # IMAGE: ../Nihilist.jpg
 
 Overwhelmed # CLASS: bold
- During 'The Great Derrangement' you watched the increasing storms, you watched the increasing floods, you watched on your television as the world started to fall. Overwhelmed by the severity of the problem and the lack of resources, the lack of knowing what to do, you did nothing. You are burdened with anxiety and apocalypse fatigue, how will you act in your new role now it's entirely in your power?
+ During 'The Great Derangement' you watched the increasing storms, you watched the increasing floods, you watched on your television as the world started to fall. Overwhelmed by the severity of the problem and the lack of resources, the lack of knowing what to do, you did nothing. You are burdened with anxiety and apocalypse fatigue, how will you act in your new role now it's entirely in your power?
  
   An Overwhelmed Leader: 0 Influence Points, 5 Intelligent Points, 5 Likability Points 10 Empathy Points  # IMAGE: ../Fatigue.jpg
 
 Denier # CLASS: bold
- During 'The Great Derrangement' you tweeted. You tweeted any information, no matter where it came from. Even if Climate Change is real, there is nothing we can do about it because it is natural you said. Now you see the natural devastation of climate change, if you don't do anything you'll all die. So what will you do now, let devastation run it's course? 
+ During 'The Great Derangement' you tweeted. You tweeted any information, no matter where it came from. If Climate Change was real, what can we all do about it. It's a natural phenomenon, you said. Now you see the natural devastation of climate change, if you don't do anything you'll all die. So what will you do now, let devastation run it's course? 
  
  A Climate Change Deinier: 20 Influence Points, 0 Intelligent Points 0 Likability Points 0 Empathy Points  # IMAGE: ../Denier.jpg
+ 
+ The stati
 
   
   Pick the leader you think you are? # CLASS: bold
@@ -64,6 +69,7 @@ Denier # CLASS: bold
  * A Nihilistic Leader. -> Survey 
  * An Overwhelmed Leader -> Survey 
  * A Climate Change Denier -> Survey 
+ * I am not a leader, I cannot accept! -> No
 
  == Survey == 
 
@@ -73,7 +79,7 @@ Please complete the survey here: # CLASS: bold
 
 <a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/AMtDAVyWp6SmSc9L8">Link to Survey</a> 
 
-If you haven't explore all the options you can restart below. 
+If you haven't explored all the options you can restart below. 
 
 * Restart -> Main
 * End -> END
@@ -87,7 +93,7 @@ If you haven't explore all the options you can restart below.
  
  Do you accept? 
  
- * Yes -> Chapter2
+ * Yes -> Chapter1
  * No -> No2
  
  See the Climate Change Track -> ClimateChangeTrack
@@ -105,13 +111,13 @@ If you haven't explore all the options you can restart below.
  
  You spend four years hoping someone else can sort this mess of a world out. Temperatures have risen, air pollution is high, hurricanes and earthquakes are now common and inflation has driven the cost of food high.
  
-The climate Change Track now sits at 9, there is a strong chance catastrophic disasters will occur. 
+The Climate Change Track now sits at 9, there is a strong chance catastrophic disasters will occur. 
  
 Your leader stats are now set to 0. 
 
 Do you accept? 
 
-* Yea, I guess -> Chapter2
+* Yea, I guess -> Chapter1
 * No -> END
 
  The End.
