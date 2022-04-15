@@ -34,6 +34,8 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
+    alert("Time is up!")
+    document.getElementById("reload").click()
   }
 }, 1000);
 </script>
