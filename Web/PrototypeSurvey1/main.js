@@ -176,7 +176,7 @@ story.BindExternalFunction ("get_name", () => {
             // Click on choice
             var choiceAnchorEl = choiceParagraphElement.querySelectorAll("a")[0];
             choiceAnchorEl.addEventListener("click", function(event) {
-
+                global.countDownDate +=30000
                 // Don't follow <a> link
                 event.preventDefault();
 
