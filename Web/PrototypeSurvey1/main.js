@@ -54,6 +54,8 @@ story.BindExternalFunction ("get_name", () => {
     // Main story processing function. Each time this is called it generates
     // all the next content up as far as the next set of choices.
     function continueStory(firstTime) {
+        
+        global.countDownDate +=30000
 
         var paragraphIndex = 0;
         var delay = 0.0;
@@ -176,7 +178,7 @@ story.BindExternalFunction ("get_name", () => {
             // Click on choice
             var choiceAnchorEl = choiceParagraphElement.querySelectorAll("a")[0];
             choiceAnchorEl.addEventListener("click", function(event) {
-                global.countDownDate +=30000
+
                 // Don't follow <a> link
                 event.preventDefault();
 
