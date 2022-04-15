@@ -55,7 +55,7 @@ story.BindExternalFunction ("get_name", () => {
     // all the next content up as far as the next set of choices.
     function continueStory(firstTime) {
         
-        global.countDownDate +=30000
+        window.countDownDate +=30000
 
 
         var paragraphIndex = 0;
