@@ -35,7 +35,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
     alert("Time is up!")
-    document.getElementById("restart").click()
+    location.reload()
   }
 }, 1000);
 </script>
