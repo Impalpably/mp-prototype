@@ -49,6 +49,8 @@
     // all the next content up as far as the next set of choices.
     function continueStory(firstTime) {
 
+        window.countDownDate =  new Date().getTime() + 60000;
+
         var paragraphIndex = 0;
         var delay = 0.0;
 
