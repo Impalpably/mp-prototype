@@ -32,8 +32,13 @@ Great!
 The timer in the top left indicates the amount of time you have. Please select the choice that feels right to you. 
 
 *Okay, lets do it!
+~ Influence += 2
+
 *Oh, I'm not sure but I'll try
+~ Influence += 1
+
 *I feel a lot of pressure here
+~ Influence -= 2
 
 - The Start 
 
@@ -46,7 +51,7 @@ Personal travel is a major contributor to air pollution and C02 emmissions, even
 ~ ClimateChangeTrack -= 2
 
 
-*Allow pesonal travel for vip's
+*Allow personal travel for vip's
 ~ Influence += 5
 ~ Corruption += 5
 ~ Empathy -= 2
@@ -210,7 +215,7 @@ How will you address the missinformation that is being spread?
 *Have them assassinated
 
 ~ Influence += 5
-~ Corruption -= 10
+~ Corruption += 10
 ~ Empathy -= 10
 ~ Morale -= 10
 ~ Paranoia += 10

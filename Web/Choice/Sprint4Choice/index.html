@@ -9,7 +9,38 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script>
+        // Set the date we're counting down to
+        window.countDownDate =  new Date().getTime() + 60000;
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = window.countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+            alert("Time is up!")
+            location.reload()
+          }
+        }, 1000);
+        </script>
+
 </head>
+
 
 <body>
 
@@ -21,6 +52,10 @@
           <a id="save" title="Save progress">save</a>
           <a id="reload" title="Reload from save point">load</a>
           <a id="theme-switch" title="Switch theme">theme</a>
+
+          <!-- Display the countdown timer in an element -->
+            <p style="font-size: 100px; color:red" id="demo"></p>
+
         </div>
 
         <div id="story" class="container">
