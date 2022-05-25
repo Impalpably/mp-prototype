@@ -3,7 +3,7 @@ VAR Corruption = 10
 VAR Empathy = 10
 VAR Paranoia = 10 
 VAR Morale = 10
-VAR ClimateChangeTrack = 6
+VAR ClimateChangeTrack = 4
 
 
 This is a project for Falmouth University, I am an Indie Game Development student, and you can contact me at SM252659@falmouth.ac.uk. I am researching how game design can play its part in eco-action and climate change action. By playing this game and completing my survey, you will be supporting my research.
