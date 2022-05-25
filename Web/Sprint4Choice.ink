@@ -304,5 +304,9 @@ The Climate Change Track is {ClimateChangeTrack}
 
 == Exit ==
 
-- They lived happily ever after.
-    -> END
+Please complete very short survey here: 
+
+<a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/YY8HiRJ1cuHY9nCf6">Link to Survey</a> 
+
+
+-> END
