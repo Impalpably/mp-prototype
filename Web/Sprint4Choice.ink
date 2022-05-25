@@ -51,7 +51,7 @@ I would also like to collect some anonymous demographic data for research. To op
 
 *An Eco Activist, I campaign for climate change action->Story
 *An Eco Educator, I am a knowledgable person on climate change and spread information to educate the world on eco issues->Story
-*I am concerned about climate change, I recycle and live sustainably, I vote in important->Story
+*I am concerned about climate change, I recycle and live sustainably, I vote on important issues and support greener policies->Story
 *I feel overwhelmed by information and stories, and I don't know what to do or where to start->Story
 *Thinking about Climate Change is a waste of time. Scientists are exaggerating->Story
 *Climate Change is a conspiracy to control the population->Story
@@ -68,10 +68,10 @@ The timer in the top-left indicates the amount of time you have. Please select t
 *Okay, let's do it!
 ~ Influence += 1
 
-*Oh, I'm not sure, but I'll try
+*Oh, I'm not sure, but I'll try!
 ~ Influence += 1
 
-*I feel a lot of pressure here
+*I feel a lot of pressure here!
 ~ Influence -= 1
 
 - The Start 
