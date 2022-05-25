@@ -88,6 +88,7 @@ How you build your city is up to you, but you might want to watch the climate ch
 *Make my first decision->Decision1
 
 == Decision1 ==
+# CLEAR
 
 Our floating city sits close to the equator. Should we adapt to climate change? There may be further consequences if we do not adapt, but our budget is minimal. 
 
