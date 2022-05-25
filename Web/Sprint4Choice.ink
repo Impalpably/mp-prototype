@@ -22,8 +22,39 @@ I am completing a series of prototypes, to explore narrative choices for games a
  
 - Your session is being recorded, I will not hold any personal information, only where you click. If you do not want to take part, you can exit at any time. 
 
-*I understand and I am happy to continue ->Story
+I would also like to collect some anonymous demographics data for research. If you'd prefer not to answer you can select 'Prefer not to answer'. 
+
+*I understand and I am happy to continue ->Demographics
 *I will be exiting ->Exit
+
+== Demographics ==
+
+Pronouns
+
+*She/Her->Age
+*He/Him->Age
+*They/Them->Age
+
+== Age ==
+
+*16 to 21->Attitude
+*21 to 31->Attitude
+*31 to 41->Attitude
+*41 to 51->Attitude
+*51 to 61->Attitude
+*61 and over->Attitude
+
+== Attitude ==
+
+Please select the climate change attitudes that feel like they most describe you.
+
+*An Eco Activist, I compaign for climate change action->Story
+*An Eco Educator, I am a knowledgable person on climate change and spread information to educate the world on eco issues->Story
+*I am concerned about climate change, I recycle and live sustainably, I vote in important->Story
+*Overwhelmed->Story
+*Confused->Story
+*Uninterested->Story
+*Climate Change is a conspiracy->Story
 
 == Story == 
 
@@ -42,29 +73,11 @@ The timer in the top left indicates the amount of time you have. Please select t
 
 - The Start 
 
-Personal travel is a major contributor to air pollution and C02 emmissions, even with investment into electric cars the planet would be a lot better off if we all use public transport. 
+You are the leader, on a floating island where emissions have crept up again. The Climate Change Track is currently set at 4, which means there are some consequences like adverse weather effects, poor air quality and the polar caps are still melting but your quite far away from extinction level events. 
 
-*Ban personal travel
-~ Influence -= 5
-~ Corruption += 2
-~ Empathy += 2
-~ ClimateChangeTrack -= 2
+How you build your city is up to you but you might want to watch the climate change track!
 
-
-*Allow personal travel for vip's
-~ Influence += 5
-~ Corruption += 5
-~ Empathy -= 2
-~ ClimateChangeTrack -= 0
-
-*Allow personal travel but campagin for responsible usage
-~ Influence += 2
-~ Corruption += 0
-~ Empathy += 2
-~ ClimateChangeTrack -= 1
-
-
-- Question 2
+Your first decision:
 
 We know that we are too late to completely stop climate change effects, our floating city sits close to the equator, should we adapt to climate change? Our budget is limited. 
 
@@ -92,6 +105,29 @@ We know that we are too late to completely stop climate change effects, our floa
 ~ Empathy += 5
 ~ ClimateChangeTrack -= 1
 
+
+- Question 2
+
+Personal travel is a major contributor to air pollution and C02 emmissions, even with investment into electric cars the planet would be a lot better off if we all use public transport. 
+
+*Ban personal travel
+~ Influence -= 5
+~ Corruption += 2
+~ Empathy += 2
+~ ClimateChangeTrack -= 2
+
+*Allow personal travel for vip's
+~ Influence += 5
+~ Corruption += 5
+~ Empathy -= 2
+~ ClimateChangeTrack -= 0
+
+*Allow personal travel but campagin for responsible usage
+~ Influence += 2
+~ Corruption += 0
+~ Empathy += 2
+~ ClimateChangeTrack -= 1
+
 - Question 3
 
 We are still reliant on fossil fuels. What do you want to do? 
@@ -110,6 +146,8 @@ We are still reliant on fossil fuels. What do you want to do?
 
 - Question 4
 
+A new statistic is added: Morale 
+
 By reducing meat consumption, you will save CO2 emmissions slowly but the decision might not be popular...
 
 *Keep all the Meat! ->Question5
@@ -124,7 +162,7 @@ By reducing meat consumption, you will save CO2 emmissions slowly but the decisi
 ~ Empathy += 1
 ~ ClimateChangeTrack += 2
 
-*Invest in meat alternatives ->Question6
+*Invest in meat alternatives like protein fermentation ->Question6
 ~ Influence += 1
 ~ Corruption += 1
 ~ Empathy += 1
@@ -132,7 +170,10 @@ By reducing meat consumption, you will save CO2 emmissions slowly but the decisi
 
  == Question5 ==
 
-While you 
+While you are in favour of keeping meat, will you advertise the benefits for meat reducing?
+
+The Climate Change Track is {ClimateChangeTrack}
+
 
 *Campaign for the benefits of vegetarianism and veganism ->Question6
 ~ Influence += 2
@@ -203,6 +244,10 @@ How will you address the missinformation that is being spread?
 ~ Paranoia += 1
 ~ ClimateChangeTrack += 2
 
+*Smear their reputation through social media, accusing them of atrocities.
+
+*Investigate them and discover dirt on them that is true, and then start a smear campaign
+
 *Discover who is spreading the fake news and out them
 
 ~ Influence += 5
@@ -249,6 +294,7 @@ Influence is {Influence}
 Corruption is {Corruption}
 Empathy is {Empathy}
 Paranoia is {Paranoia}
+
 Morale is {Morale}
 
 The Climate Change Track is {ClimateChangeTrack}
