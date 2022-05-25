@@ -26,7 +26,7 @@ I am completing a series of prototypes to explore narrative choices for games ab
 I would also like to collect some anonymous demographic data for research. To opt-out, select 'Prefer not to answer'.
 
 *I understand, and I am happy to continue ->Demographics
-*I will be exiting ->Exit
+*I will be exiting ->END
 
 == Demographics ==
 # CLEAR
@@ -45,7 +45,6 @@ I would also like to collect some anonymous demographic data for research. To op
 *51 to 61->Attitude
 *61 and over->Attitude
 *Prefer not to answer->Attitude
-
 
 == Attitude ==
 
@@ -116,7 +115,7 @@ Our floating city sits close to the equator. Should we adapt to climate change? 
 ~ Empathy += 5
 ~ ClimateChangeTrack -= 1
 
-- Question 2
+- Travel
 # CLEAR
 
 Personal travel is a significant contributor to air pollution and C02 emissions; even with investment in electric cars, the planet would be better off if we all use public transport. 
@@ -139,9 +138,8 @@ Personal travel is a significant contributor to air pollution and C02 emissions;
 ~ Empathy += 2
 ~ ClimateChangeTrack -= 1
 
-- Question 3
+- Fossil Fuel
 # CLEAR
-
 
 We are still reliant on fossil fuels. What do you want to do? 
 
@@ -157,7 +155,7 @@ We are still reliant on fossil fuels. What do you want to do?
 ~ Empathy += 2
 ~ ClimateChangeTrack += 1 
 
-- Question 4
+- Meat
 # CLEAR
 
 A new statistic is added: Morale 
@@ -243,7 +241,7 @@ What kinds of meat alternatives will we invest in?
 ~ Morale -= 1
 ~ ClimateChangeTrack -= 2
 
-- Question 7
+- Conspiracy
 # CLEAR
 
 One of your team approaches you with a pamphlet:
@@ -305,7 +303,7 @@ How will you address the misinformation that is being spread?
 ~ Paranoia += 10
 ~ ClimateChangeTrack += 1
 
-- Question 8
+- An event
 # CLEAR
 
 
@@ -328,8 +326,7 @@ Forest fires have decimated a large portion of another city. This city is also r
 ~ Morale -= 10
 ~ ClimateChangeTrack += 3
 
-- Consequences
-# CLEAR
+- Your decisions
 
 Your personality stats are reflected in the decisions you made: 
 
@@ -342,16 +339,8 @@ Morale is {Morale}
 
 The Climate Change Track is {ClimateChangeTrack}
 
-Survey->Exit
-
-
-== Exit ==
-# CLEAR
-
-
 Please complete very short survey here: 
 
 <a target="_blank" rel="noopener noreferrer" href="http:\/\/forms.gle/YY8HiRJ1cuHY9nCf6">Link to Survey</a> 
-
 
 -> END
