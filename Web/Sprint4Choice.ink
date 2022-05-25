@@ -3,7 +3,7 @@ VAR Corruption = 10
 VAR Empathy = 10
 VAR Paranoia = 10 
 VAR Morale = 10
-VAR ClimateChangeTrack = 0
+VAR ClimateChangeTrack = 6
 
 
 This is a project for Falmouth University, I am an Indie Game Development student, and you can contact me at SM252659@falmouth.ac.uk. I am researching how game design can play its part in eco-action and climate change action. By playing this game and completing my survey, you will be supporting my research.
@@ -107,7 +107,7 @@ Our floating city sits close to the equator. Should we adapt to climate change? 
 ~ Influence += 5
 ~ Corruption -= 0
 ~ Empathy += 2
-~ ClimateChangeTrack -= 2
+~ ClimateChangeTrack -= 1
 
 *Invest in research to discover new ways to adapt to the weather without adapting buildings and air conditioning energy costs.
 ~ Influence += 0
@@ -124,7 +124,7 @@ Personal travel is a significant contributor to air pollution and C02 emissions;
 ~ Influence -= 5
 ~ Corruption += 2
 ~ Empathy += 2
-~ ClimateChangeTrack -= 2
+~ ClimateChangeTrack -= 1
 
 *Allow personal travel for vip's
 ~ Influence += 5
@@ -136,7 +136,7 @@ Personal travel is a significant contributor to air pollution and C02 emissions;
 ~ Influence += 2
 ~ Corruption += 0
 ~ Empathy += 2
-~ ClimateChangeTrack -= 1
+~ ClimateChangeTrack -= 0
 
 - Fossil Fuel
 # CLEAR
@@ -147,13 +147,13 @@ We are still reliant on fossil fuels. What do you want to do?
 ~ Influence += 2
 ~ Corruption -= 2
 ~ Empathy += 2
-~ ClimateChangeTrack -= 2
+~ ClimateChangeTrack -= 1
 
 *Continute to use fossil fuels while you invest and build renewable energy sources.
 ~ Influence += 2
 ~ Corruption += 2
 ~ Empathy += 2
-~ ClimateChangeTrack += 1 
+~ ClimateChangeTrack += 2 
 
 - Meat
 # CLEAR
@@ -218,7 +218,7 @@ What kinds of meat alternatives will we invest in?
 ~ Corruption += 2
 ~ Empathy += 0
 ~ Morale -= 1
-~ ClimateChangeTrack -= 1
+~ ClimateChangeTrack += 3
 
 *Invest in Vertical Farming which uses some CO2 emmissions but is significantly reduced and allows for a variety of fresh and delicious foods
 ~ Influence += 2
@@ -232,14 +232,14 @@ What kinds of meat alternatives will we invest in?
 ~ Corruption += 0
 ~ Empathy += 1
 ~ Morale += 1
-~ ClimateChangeTrack -= 1
+~ ClimateChangeTrack -= 0
 
 *Invest in only Alage farms and run a huge campaign about the health benefits. 
 ~ Influence -= 1
 ~ Corruption += 0
 ~ Empathy += 0
 ~ Morale -= 1
-~ ClimateChangeTrack -= 2
+~ ClimateChangeTrack -= 1
 
 - Conspiracy
 # CLEAR
@@ -316,7 +316,7 @@ Forest fires have decimated a large portion of another city. This city is also r
 ~ Empathy += 10
 ~ Paranoia += 0
 ~ Morale += 10
-~ ClimateChangeTrack -=3
+~ ClimateChangeTrack -=1
 
 *Refuse support. They got themeselves into this mess. 
 ~ Influence -= 10
