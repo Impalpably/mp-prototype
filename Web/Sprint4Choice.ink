@@ -11,14 +11,14 @@ This is a project for Falmouth University, I am an Indie Game Development studen
 I am completing a series of prototypes to explore narrative choices for games about climate change. 
 
  * That sounds wonderful
-~ Influence += 2
-~ Corruption -= 2
-~ Empathy += 2
+~ Influence += 1
+~ Corruption -= 1
+~ Empathy += 1
 
  * I would rather let the planet die
-~ Influence -= 2
-~ Corruption += 2
-~ Empathy -= 2
+~ Influence -= 1
+~ Corruption += 1
+~ Empathy -= 1
  
 - Your session is being recorded. I will not hold any personal information, only where you click. If you do not want to take part, you can exit at any time. 
 # CLEAR
@@ -66,13 +66,13 @@ Great!
 The timer in the top-left indicates the amount of time you have. Please select the choice that feels right to you. 
 
 *Okay, let's do it!
-~ Influence += 2
+~ Influence += 1
 
 *Oh, I'm not sure, but I'll try
 ~ Influence += 1
 
 *I feel a lot of pressure here
-~ Influence -= 2
+~ Influence -= 1
 
 - The Start 
 # CLEAR
@@ -95,25 +95,25 @@ Our floating city sits close to the equator. Should we adapt to climate change? 
 ~ Influence += 0
 ~ Corruption += 0
 ~ Empathy += 0
-~ ClimateChangeTrack -= 1
+~ ClimateChangeTrack -= 0
 
 *Install air conditioning in everyones homes
-~ Influence += 2
-~ Corruption -= 2
+~ Influence += 1
+~ Corruption -= 1
 ~ Empathy += 0
-~ ClimateChangeTrack += 2
+~ ClimateChangeTrack += 1
 
 *Update and rebuild homes to adapt fully to climate change weather through techniques like passive cooling
-~ Influence += 5
+~ Influence += 2
 ~ Corruption -= 0
 ~ Empathy += 2
 ~ ClimateChangeTrack -= 1
 
 *Invest in research to discover new ways to adapt to the weather without adapting buildings and air conditioning energy costs.
-~ Influence += 0
-~ Corruption -= 0
-~ Empathy += 5
-~ ClimateChangeTrack -= 1
+~ Influence -= 1
+~ Corruption += 1
+~ Empathy += 1
+~ ClimateChangeTrack -= 0
 
 - Travel
 # CLEAR
@@ -127,13 +127,13 @@ Personal travel is a significant contributor to air pollution and C02 emissions;
 ~ ClimateChangeTrack -= 1
 
 *Allow personal travel for vip's
-~ Influence += 5
+~ Influence += 2
 ~ Corruption += 5
 ~ Empathy -= 2
 ~ ClimateChangeTrack -= 0
 
 *Allow personal travel but campagin for responsible usage
-~ Influence += 2
+~ Influence += 0
 ~ Corruption += 0
 ~ Empathy += 2
 ~ ClimateChangeTrack -= 0
@@ -144,15 +144,15 @@ Personal travel is a significant contributor to air pollution and C02 emissions;
 We are still reliant on fossil fuels. What do you want to do? 
 
 *Stop usage of fossil fuels immediately. This will mean some people and services will be without power while you invest and build renewable energy sources such as wind farms, solar farms and tidal power.
-~ Influence += 2
-~ Corruption -= 2
+~ Influence += 1
+~ Corruption -= 1
 ~ Empathy += 2
 ~ ClimateChangeTrack -= 1
 
 *Continute to use fossil fuels while you invest and build renewable energy sources.
 ~ Influence += 2
 ~ Corruption += 2
-~ Empathy += 2
+~ Empathy += 0
 ~ ClimateChangeTrack += 2 
 
 - Meat
@@ -169,13 +169,13 @@ Reducing meat consumption will save CO2 emissions, but the decision might not be
 ~ ClimateChangeTrack += 3
 
 *Reduce meat consumption ->Question5
-~ Influence += 2
+~ Influence += 1
 ~ Corruption += 1
 ~ Empathy += 1
 ~ ClimateChangeTrack += 2
 
 *Invest in meat alternatives like protein fermentation ->Question6
-~ Influence += 1
+~ Influence += 0
 ~ Corruption += 1
 ~ Empathy += 1
 ~ ClimateChangeTrack += 1
@@ -188,16 +188,16 @@ While you favour keeping meat, will you advertise the benefits of reducing meat 
 The Climate Change Track is {ClimateChangeTrack}
 
 *Campaign for the benefits of vegetarianism and veganism ->Question6
-~ Influence += 2
+~ Influence += 0
 ~ Corruption += 0
-~ Empathy += 2
-~ Morale += 2
+~ Empathy += 1
+~ Morale += 1
 ~ ClimateChangeTrack += 1
 
 *Actively campaign to convince people that eating meat is bad for the environment ->Question6
-~ Influence += 2
+~ Influence += 1
 ~ Corruption += 0
-~ Empathy += 2
+~ Empathy += 1
 ~ Morale -= 2
 ~ ClimateChangeTrack += 1
 
@@ -205,7 +205,7 @@ The Climate Change Track is {ClimateChangeTrack}
 ~ Influence += 5
 ~ Corruption += 0
 ~ Empathy += 0
-~ Morale += 5
+~ Morale += 3
 ~ ClimateChangeTrack += 3
 
  == Question6 ==
@@ -215,10 +215,10 @@ What kinds of meat alternatives will we invest in?
 
 *We won't invest in any meat alternatives, we will only eat meat and no vegetables. 
 ~ Influence += 1
-~ Corruption += 2
-~ Empathy += 0
+~ Corruption += 1
+~ Empathy -= 1
 ~ Morale -= 1
-~ ClimateChangeTrack += 3
+~ ClimateChangeTrack += 1
 
 *Invest in Vertical Farming which uses some CO2 emmissions but is significantly reduced and allows for a variety of fresh and delicious foods
 ~ Influence += 2
@@ -262,7 +262,7 @@ How will you address the misinformation that is being spread?
 
 
 *Spread your own campaign, focusing on the truth, that you are not trying to sterilise the population and you have made positive progress
-~ Influence += 5
+~ Influence += 1
 ~ Corruption += 1
 ~ Empathy += 1
 ~ Morale += 1
@@ -275,7 +275,7 @@ How will you address the misinformation that is being spread?
 ~ Empathy -= 2
 ~ Morale -= 2
 ~ Paranoia += 2
-~ ClimateChangeTrack += 1
+~ ClimateChangeTrack += 0
 
 *Follow them and discover dirt on them and start a smear campaign
 ~ Influence += 2
@@ -283,7 +283,7 @@ How will you address the misinformation that is being spread?
 ~ Empathy -= 2
 ~ Morale -= 2
 ~ Paranoia += 2
-~ ClimateChangeTrack += 1
+~ ClimateChangeTrack += 0
 
 *Discover who is spreading the fake news and out them
 
@@ -292,7 +292,7 @@ How will you address the misinformation that is being spread?
 ~ Empathy -= 2
 ~ Morale -= 1
 ~ Paranoia += 5
-~ ClimateChangeTrack += 1
+~ ClimateChangeTrack += 0
 
 *Have them assassinated
 
@@ -311,12 +311,12 @@ An event has occurred:
 Forest fires have decimated a large portion of another city. This city is also responsible for emitting the highest CO2 emissions from all the floating islands. 
 
 *Offer supplies including food, you will have to ration going forward but you will minimise any losses across both cities
-~ Influence += 10
+~ Influence += 3
 ~ Corruption += 0
-~ Empathy += 10
+~ Empathy += 5
 ~ Paranoia += 0
-~ Morale += 10
-~ ClimateChangeTrack -=1
+~ Morale += 5
+~ ClimateChangeTrack -= 0
 
 *Refuse support. They got themeselves into this mess. 
 ~ Influence -= 10
