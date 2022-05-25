@@ -28,6 +28,8 @@ I would also like to collect some anonymous demographics data for research. If y
 *I will be exiting ->Exit
 
 == Demographics ==
+# CLEAR
+
 
 Pronouns
 
@@ -51,12 +53,13 @@ Please select the climate change attitudes that feel like they most describe you
 *An Eco Activist, I compaign for climate change action->Story
 *An Eco Educator, I am a knowledgable person on climate change and spread information to educate the world on eco issues->Story
 *I am concerned about climate change, I recycle and live sustainably, I vote in important->Story
-*Overwhelmed->Story
-*Confused->Story
-*Uninterested->Story
-*Climate Change is a conspiracy->Story
+*I feel overwhelmed by information and stories and I don't know what to do or where to start->Story
+*Thinking about Climate Change is a waste of time, scientists are exagerating->Story
+*Climate Change is acutally a conspiracy to control the population and make us slaves->Story
 
 == Story == 
+
+# CLEAR
 
 Great!
 
@@ -72,6 +75,8 @@ The timer in the top left indicates the amount of time you have. Please select t
 ~ Influence -= 2
 
 - The Start 
+
+# CLEAR
 
 You are the leader, on a floating island where emissions have crept up again. The Climate Change Track is currently set at 4, which means there are some consequences like adverse weather effects, poor air quality and the polar caps are still melting but your quite far away from extinction level events. 
 
@@ -107,6 +112,8 @@ We know that we are too late to completely stop climate change effects, our floa
 
 
 - Question 2
+# CLEAR
+
 
 Personal travel is a major contributor to air pollution and C02 emmissions, even with investment into electric cars the planet would be a lot better off if we all use public transport. 
 
@@ -129,6 +136,8 @@ Personal travel is a major contributor to air pollution and C02 emmissions, even
 ~ ClimateChangeTrack -= 1
 
 - Question 3
+# CLEAR
+
 
 We are still reliant on fossil fuels. What do you want to do? 
 
@@ -145,6 +154,8 @@ We are still reliant on fossil fuels. What do you want to do?
 ~ ClimateChangeTrack += 1 
 
 - Question 4
+# CLEAR
+
 
 A new statistic is added: Morale 
 
@@ -169,6 +180,8 @@ By reducing meat consumption, you will save CO2 emmissions slowly but the decisi
 ~ ClimateChangeTrack += 1
 
  == Question5 ==
+ # CLEAR
+
 
 While you are in favour of keeping meat, will you advertise the benefits for meat reducing?
 
@@ -197,6 +210,8 @@ The Climate Change Track is {ClimateChangeTrack}
 ~ ClimateChangeTrack += 3
 
  == Question6 ==
+ # CLEAR
+
 
 *Invest in Vertical Farming which uses some CO2 emmissions but is significantly reduced and allows for a variety of fresh and delicious foods
 ~ Influence += 2
@@ -220,6 +235,8 @@ The Climate Change Track is {ClimateChangeTrack}
 ~ ClimateChangeTrack -= 2
 
 - Question 7
+# CLEAR
+
 
 One of your team approach you a pamphlet, fake news is spreading about climate change effects and that you are at the centre of a conspiracy to sterilise and end the human race. 
 
@@ -267,6 +284,8 @@ How will you address the missinformation that is being spread?
 ~ ClimateChangeTrack += 3
 
 - Question 8
+# CLEAR
+
 
 Event: Forest fires have decimated a large portion of another city, this city is also responsible for emitting the highest level of CO2 emmissions out of all the islands. 
 
@@ -287,6 +306,7 @@ Event: Forest fires have decimated a large portion of another city, this city is
 ~ ClimateChangeTrack += 3
 
 - Consequences
+# CLEAR
 
 Your personality stats are reflected in the decisions you made: 
 
@@ -299,10 +319,12 @@ Morale is {Morale}
 
 The Climate Change Track is {ClimateChangeTrack}
 
-->Exit
+Survey->Exit
 
 
 == Exit ==
+# CLEAR
+
 
 Please complete very short survey here: 
 
