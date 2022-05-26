@@ -9,7 +9,7 @@ Thank you for clicking on my survey!
 
 I am completing a series of prototypes to explore game design for persuasive games. This is not my full game, my full game is a card and city-building game with some narrative events.
 
-You will be asked to make a series of decisions as leader of your new futuristic eco city. You are one of a few floating islands. 
+You will be asked to make a series of decisions as leader of your new futuristic eco city. You are one of a few floating island communities. 
 
 The timer in the top-left indicates the amount of time you have. You will need to read and select your choices before it runs out or something terrible might happen! (It won't really be that terrible).
 
@@ -80,6 +80,8 @@ You are one leader, building a civilisation on a floating island.
 To measure the adverse effects of climate change, you created 'The Climate Change Track'. The scale can move from 1 to 12, 1 meaning that adverse effects from climate change are unlikely, and 12 meaning you are close to extinction. 
 
 The Climate Change Track is currently set at 4. 
+
+Every decision you make matters, each choice will effect your leadership stats which you will see at the end.
 
 How you build your city is up to you, but you might want to watch the climate change track!
 
