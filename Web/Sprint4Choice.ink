@@ -1,14 +1,30 @@
-VAR Influence = 10
-VAR Corruption = 10
-VAR Empathy = 10
-VAR Paranoia = 10 
-VAR Morale = 10
+VAR Influence = 1
+VAR Corruption = 1
+VAR Empathy = 1
+VAR Paranoia = 1 
+VAR Morale = 1
 VAR ClimateChangeTrack = 4
 
+Thank you for clicking on my survey!
+
+I am completing a series of prototypes to explore game design for persuasive games. This is not my full game, my full game is a card and city-building game with some narrative events.
+
+You will be asked to make a series of decisions as leader of your new futuristic eco city. You are one of a few floating islands. 
+
+The timer in the top-left indicates the amount of time you have. You will need to read and select your choices before it runs out or something terrible might happen! (It won't really be that terrible).
+
+*Okay, let's do it!
+~ Influence += 1
+
+*Oh, I'm not sure, but I'll try!
+
+*I feel a lot of pressure here!
+~ Influence -= 1
+
+-Disclaimer
+First, you need to know that:
 
 This is a project for Falmouth University, I am an Indie Game Development student, and you can contact me at SM252659@falmouth.ac.uk. I am researching how game design can play its part in eco-action and climate change action. By playing this game and completing my survey, you will be supporting my research.
-
-I am completing a series of prototypes to explore narrative choices for games about climate change. 
 
  * That sounds wonderful
 ~ Influence += 1
@@ -58,24 +74,6 @@ I would also like to collect some anonymous demographic data for research. To op
 *Prefer not to answer->Story
 
 == Story == 
-
-# CLEAR
-
-Great!
-
-The timer in the top-left indicates the amount of time you have. Please select the choice that feels right to you. 
-
-*Okay, let's do it!
-~ Influence += 1
-
-*Oh, I'm not sure, but I'll try!
-~ Influence += 1
-
-*I feel a lot of pressure here!
-~ Influence -= 1
-
-- The Start 
-# CLEAR
 
 You are one leader, building a civilisation on a floating island. 
 
